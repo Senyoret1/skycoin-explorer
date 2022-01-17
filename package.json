@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e skycoin-explorer-e2e",
     "e2e-blockchain-180": "ng e2e skycoin-explorer-e2e-blockchain-180",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "private": true,
@@ -19,7 +19,7 @@
     "@angular/animations": "^8.2.2",
     "@angular/common": "^8.2.2",
     "@angular/compiler": "^8.2.2",
-    "@angular/core": "^8.2.2",
+    "@angular/core": "^11.0.5",
     "@angular/forms": "^8.2.2",
     "@angular/platform-browser": "^8.2.2",
     "@angular/platform-browser-dynamic": "^8.2.2",
@@ -30,31 +30,31 @@
     "disable-scroll": "^0.4.0",
     "rxjs": "^6.5.2",
     "zone.js": "~0.9.1",
-    "snyk": "^1.85.0",
     "bignumber.js": "^7.2.1",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.21",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@angular/cli": "^8.2.2",
-    "@angular/compiler-cli": "^9.0.0-next.2",
+    "@angular/cli": "^9.1.13",
+    "@angular/compiler-cli": "^9.1.0",
     "@angular/language-service": "^8.2.2",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.1",
-    "jasmine-core": "~2.99.1",
+    "jasmine-core": "~3.1.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.0.0",
+    "karma": "~6.0.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-cli": "~1.0.1",
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "~5.4.2",
+    "protractor": "~6.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.7.0",
     "typescript": "~3.5.3",
-    "@angular-devkit/build-angular": "~0.802.2"
+    "@angular-devkit/build-angular": "~13.0.0"
   },
   "snyk": true
 }
